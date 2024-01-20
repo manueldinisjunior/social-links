@@ -1,0 +1,139 @@
+:root {
+    --primary-bg-color: hsl(0, 0%, 8%);     /*Off Black */
+    --text-color: hsl(0, 0%, 100%);         /*White */
+    --accent-color: hsl(75, 94%, 57%);      /*Green */
+    --card-bg-color: hsl(0, 0%, 12%);       /*Dark Grey */
+    --button-bg-color: hsl(0, 0%, 20%);     /*Grey*/
+
+    --font-face-default: "Inter", sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-medium: 600;
+    --font-weight-bold: 700;
+
+    --font-size-body: 0.875rem;
+    --font-size-heading: 1.5rem;
+
+  }
+  
+  body {
+    background-color: var(--primary-bg-color);
+    color: var(--text-color);
+    font-family: var(--font-face-default);
+    text-align: center;
+
+  }
+  
+  .attribution {
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-bg-color);
+    font-size: var(font-size-body);
+  }
+  
+  .attribution a {
+    color: var(--accent-color);
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 90vh;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 375px) {
+    .card-container {
+      margin: 0 10px;
+    }
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 380px;
+    height: 100%;
+    max-height: 580px;
+    margin: 20px auto;
+    background-color: var(--card-bg-color);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .img-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .img-icon img {
+    max-width: 80px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text-content {
+    margin: 10px 0;
+  }
+  
+  .text-content h1 {
+    font-size: var(--font-size-heading);
+    font-weight: var(--font-weight-medium);
+    margin-bottom: 8px;
+  }
+  
+  .text-content h2 {
+    font-size: var(--font-size-body);
+    color: var(--accent-color);
+    margin-top: 8px;
+  }
+  
+  .text-content p {
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-regular);
+    margin-top: 25px;
+  }
+  
+  .navlink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .button {
+    background-color: var(--button-bg-color);
+    padding: 13px 15px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    width: 260px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-body);
+    display: block;
+    transition: color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: var(--accent-color);
+  }
+  
+  .button:hover a {
+    color: var(--primary-bg-color);
+  }
+  
