@@ -1,3 +1,3 @@
-# Social Links
+# Social Links Landing Page
 
-[Web-Portfolio](https://manueldinisjunior.com)
+[Project](https://manueldinisjunior.github.io/social-links/)
