@@ -3,59 +3,82 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://manueldinisjunior.de/wp-content/uploads/2026/08/discomorphism-icon.webp">
-  <title>Manuel Dinis Júnior | Social Links Profile</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap">
-
+  <meta name="description" content="Explore the portfolio, code, writing, and social profiles of Manuel Dinis Júnior, a web and software developer in Germany.">
+  <meta name="theme-color" content="#d3cdc3">
+  <link rel="icon" type="image/webp" sizes="32x32" href="https://manueldinisjunior.de/wp-content/uploads/2026/08/discomorphism-icon.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" type="module"></script>
+  <title>Manuel Dinis Júnior — Links</title>
 </head>
 <body>
-  <main>
-    <div class="card-container">
-      <div class="card">
-        <div class="img-icon">
-          <img sizes="64x64" src="https://manueldinisjunior.de/wp-content/uploads/2026/08/discomorphism-icon.webp" alt="icon">
-        </div>
-        <div class="card-content">
-          <div class="text-content">
-            <h1>Manuel Dinis Júnior</h1>
-            <h2>Region Hannover, Deutschland</h2>
-            <p>💻 Web- & Softwareentwickler <br></p>
-            <p>🛠️ WordPress · WooCommerce · JavaScript · PHP</p>
+  <a class="skip-link" href="#links">Skip to links</a>
 
-          </div>
+  <main class="profile" aria-labelledby="page-title">
+    <header class="masthead">
+      <a class="brand" href="https://manueldinisjunior.de" aria-label="Zur Website von Manuel Dinis Júnior">
+        MDJ<span aria-hidden="true">.</span>
+      </a>
+      <p class="edition">Digital profile / <span id="year">2026</span></p>
+      <p class="availability"><span class="status-dot" aria-hidden="true"></span>Available for selected projects</p>
+    </header>
 
-          <div class="navlink">
-                   
-          <div class="button">
-                <a href="https://manueldinisjunior.de">Web Portfolio</a>
-            </div>
-
-            <div class="button">
-                <a href="https://www.linkedin.com/in/manueldinisjunior">LinkedIn</a>
-            </div>
-            <div class="button">
-                <a href="https://instagram.com/manueldinisjunior">Instagram</a>
-            </div>   
-            <div class="button">
-                <a href="https://github.com/manueldinisjunior">GitHub</a>
-            </div>    
-            </div>    
-               <div class="button">
-                <a href="https://substack.com/@manueldinisjunior">Substack</a>
-               </div>    
-            
-          </div>
-        </div>
+    <section class="intro" aria-labelledby="page-title">
+      <div class="intro-copy">
+        <p class="kicker">Web &amp; Software Developer</p>
+        <h1 id="page-title">Manuel<br>Dinis Júnior</h1>
+        <p class="statement">I shape ideas into useful digital systems—clear in form, thoughtful in function.</p>
       </div>
-    </div>
-    
-  </main>
 
-  <footer>
-    <div>
-      <a> All Rights Reserved © 2026</a>
-    </div>
-  </footer>
+      <figure class="visual-stage" aria-labelledby="visual-caption">
+        <span class="visual-index" aria-hidden="true">01 / Observe</span>
+        <img class="eye-art" src="assets/eye-exploration.png" width="960" height="640" alt="Abstract geometric eye illustration">
+        <figcaption id="visual-caption">Perspective shapes the experience.</figcaption>
+      </figure>
+    </section>
+
+    <section class="link-section" id="links" aria-labelledby="links-title">
+      <div class="link-heading">
+        <p class="kicker">Selected destinations</p>
+        <h2 id="links-title">Find my work<br>across the web.</h2>
+      </div>
+
+      <nav class="link-list" aria-label="Social Media und Portfolio">
+        <a class="link-row" href="https://manueldinisjunior.de" target="_blank" rel="noreferrer">
+          <span class="link-number">01</span>
+          <span class="link-name">Web Portfolio</span>
+          <span class="link-action">Explore projects</span>
+        </a>
+        <a class="link-row" href="https://www.linkedin.com/in/manueldinisjunior" target="_blank" rel="noreferrer">
+          <span class="link-number">02</span>
+          <span class="link-name">LinkedIn</span>
+          <span class="link-action">Connect professionally</span>
+        </a>
+        <a class="link-row" href="https://github.com/manueldinisjunior" target="_blank" rel="noreferrer">
+          <span class="link-number">03</span>
+          <span class="link-name">GitHub</span>
+          <span class="link-action">Review the code</span>
+        </a>
+        <a class="link-row" href="https://substack.com/@manueldinisjunior" target="_blank" rel="noreferrer">
+          <span class="link-number">04</span>
+          <span class="link-name">Substack</span>
+          <span class="link-action">Read my thinking</span>
+        </a>
+        <a class="link-row" href="https://instagram.com/manueldinisjunior" target="_blank" rel="noreferrer">
+          <span class="link-number">05</span>
+          <span class="link-name">Instagram</span>
+          <span class="link-action">See the process</span>
+        </a>
+      </nav>
+    </section>
+
+    <footer class="footer">
+      <p>Region Hannover, Germany</p>
+      <p>WordPress · WooCommerce · JavaScript · PHP</p>
+      <p>© <span id="footer-year">2026</span> Manuel Dinis Júnior</p>
+    </footer>
+  </main>
 </body>
 </html>
